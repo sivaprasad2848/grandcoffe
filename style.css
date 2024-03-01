@@ -81,3 +81,48 @@ body,div,h1,h2 p{
     margin-top: 20px;
 
 }
+.btn{
+    padding: 20px;
+    background: black;
+    color: white;
+
+}
+/* ...........................................about us........................................................... */
+
+.main2{
+    height: 750px;
+    width: 100%;
+    /* background: black; */
+    position: relative;
+
+}
+.main2 img{
+    height: 500px;
+    width: auto;
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    transform: translate( -50, -50);
+    /* color: white; */
+}
+.main2 div{
+    position: absolute;
+    top: 275px;
+    left: 200px;
+    transform: translate( -50, -50);
+    /* color: white; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main2 div button{
+    padding: 10px 20px;
+    background: black;
+    color: white;
+}
+.main2 div h1{
+    color: rgb(235, 118, 9);
+    font-weight: 800;
+    font-size: 36px;
+}
+.main2 div p{
+    font-size: larger;
+}
